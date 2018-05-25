@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{}
+body{
+background: url(../img/wood.jpg);
+width:100%;
+min-width:1024px;
+margin:0px auto;
+padding-top:10px;
+
+}
+
+h1{
+	color:rgba(255,255,255,1);
+	text-align:center;
+	font-family:"Trajan Pro 3";
+	font-weight:100;
+	padding-top:20px;
+
+}
+
+#logo{
+	position: fixed;
+	margin:0px auto;
+	left:10px;
+	top:15px;
+	z-index:109;
+	width:300px;
+}
+
+
+#adress{
+	position:  fixed;
+	margin:0px auto;
+	right:10px;
+	top:15px;
+	z-index:109;
+	width:230px;
+}
+
+li{list-style: none;}
+
+p{
+	color:#fff;
+	text-align: right;
+	font-size:15px;
+	padding-left:30px;
+	padding-right:60px;
+	padding-top:30px;
+	padding-bottom:0px;
+	font-family: 'Raleway', sans-serif;
+	line-height:25px;
+	width:390px;
+}
+
+#intro{
+	background:rgba(0,0,0,0);
+	width:1024px;
+	height:1500px;
+	margin:0px auto;
+	top:70px;
+	position: relative;
+}
+.spacer{
+	width:1024px;
+	height:400px;
+	background:rgba(0,0,0,.5);
+	border-top:rgba(188,162,75,1) 2px solid;
+	margin:0px auto;
+	margin-top:10px;
+}
+
+#intro p{
+	float:right;
+	 background:rgba(0,0,0,0);
+	 padding:30px;
+}
+#intro img{
+	float:left;
+	margin-left:40px;
+	margin-top:50px;
+	-webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+header{
+	width:100%;
+	background:white;
+	height:100px;
+}
+
+
+#nav {
+	width:100%;
+	height:80px;
+	font-family:"Trajan Pro 3";
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	top:0px;
+	z-index:98;
+	padding-top:5px;
+	list-style: none;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	border-bottom:1px solid rgba(255,204,0,.7);
+}
+#links{
+	width:100%;
+	margin:0px auto;
+	position: absolute;
+	bottom:30px;
+	padding:0px;
+}
+
+#nav li {
+	display: inline-block;
+	margin-bottom:0px;
+	margin-top:0px;
+	
+	height:20px;
+	}
+#nav li a {
+	display: inline;
+	padding:5px;
+	margin-left:20px;
+	height:20px;
+	border-bottom:1px solid grey;
+	text-align:center;
+	text-decoration:none;
+	color: rgba(204,204,204,1);
+	font-size:18px;
+	margin-bottom:0px;
+	background:rgba(0,0,0,0);
+	-webkit-transition: all .2s  ease-in-out;
+	-moz-transition: all .2s  ease-in-out;
+	-o-transition: all .2s  ease-in-out;
+	transition: all .2s  ease-in-out;
+	opacity:1;
+  }
+  
+#nav li a:hover {
+	padding-bottom:px;
+	opacity:1;
+	background:rgba(188,163,77,1);
+	border:none;
+	color:rgba(0,0,0,1);
+}
+@font-face{
+	font-family:"Trajan Pro 3";
+	src: url(../img/trajan.otf);
+	
+}
+
+
+.hours{
+	color:rgba(255,255,255,1);
+	text-align:center;
+}
+
+.hours  li{
+	margin:20px;
+	font-size:18px;
+	
+}
+
+b{
+	font-family:"Trajan Pro 3";
+	font-weight:100;
+	color:rgba(188,161,76,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
